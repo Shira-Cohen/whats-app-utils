@@ -8,7 +8,7 @@ from sqlalchemy.orm import mapped_column, Mapped
 import uuid
 from sqlalchemy.dialects.postgresql import UUID
 
-from utils.custem_logger import logger
+from custem_logger import logger
 
 
 class BasicModel(DeclarativeBase):

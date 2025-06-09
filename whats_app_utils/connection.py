@@ -5,8 +5,8 @@ from sqlalchemy import create_engine
 from sqlalchemy.ext.asyncio import create_async_engine, AsyncSession, async_sessionmaker
 from sqlalchemy.orm import sessionmaker, Session
 
-from utils.custem_logger import logger
-from utils.settings import get_postgres_config
+from custem_logger import logger
+from settings import get_postgres_config
 
 POSTGRES_DB = get_postgres_config()
 
