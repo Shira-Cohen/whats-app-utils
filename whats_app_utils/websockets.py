@@ -2,7 +2,7 @@ from fastapi import WebSocket, WebSocketDisconnect
 from typing import Dict
 import logging
 
-from custem_logger import logger
+from whats_app_utils.custem_logger import logger
 
 # שמירת חיבורים פתוחים לפי user_id
 connected_users: Dict[str, WebSocket] = {}
