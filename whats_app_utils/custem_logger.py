@@ -1,7 +1,7 @@
 import logging
 import sys
 
-from settings import LOGLEVEL
+from whats_app_utils.settings import LOGLEVEL
 
 
 class CustomFormatter(logging.Formatter):
