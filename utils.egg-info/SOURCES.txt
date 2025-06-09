@@ -1,0 +1,14 @@
+setup.py
+utils.egg-info/PKG-INFO
+utils.egg-info/SOURCES.txt
+utils.egg-info/dependency_links.txt
+utils.egg-info/top_level.txt
+whats-app-utils/__init__.py
+whats-app-utils/base_schema.py
+whats-app-utils/basic_model.py
+whats-app-utils/connection.py
+whats-app-utils/custem_logger.py
+whats-app-utils/redis_client.py
+whats-app-utils/settings.py
+whats-app-utils/websockets.py
+whats-app-utils/documentation/__init__.py
